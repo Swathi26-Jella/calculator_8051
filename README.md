@@ -9,7 +9,6 @@ This project implements a basic calculator using Embedded C. It performs fundame
 - Multiplication
 - Division
 - User input processing
-- Modular function design
 
 ## 🛠 Tools & Technologies
 
@@ -22,7 +21,10 @@ This project implements a basic calculator using Embedded C. It performs fundame
 
 calculator-project/  
 ├── calculator.c  
-├── calculator.h  
+├── calculator.h 
+├──lcd.c
+├──keypad.c
+├──calculator_in_proteus.jpeg
 └── README.md  
 
 ## ▶ How It Works
@@ -30,7 +32,7 @@ calculator-project/
 1. User selects an arithmetic operation.
 2. Program accepts input numbers.
 3. The selected operation is performed.
-4. Result is displayed.
+4. Result is displayed on both calculator and lcd.
 
 ## 🎯 Learning Objectives
 
@@ -41,8 +43,6 @@ calculator-project/
 
 ## 🚀 Future Improvements
 
-- LCD display integration
-- Keypad input interface
 - Error handling for invalid operations
 
 ## 👩‍💻 Author
